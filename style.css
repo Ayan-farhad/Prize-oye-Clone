@@ -134,7 +134,12 @@
  width: 100%;
 }
 
-.container{
-    /* width: 50%; */
+.p-5{
+    width: 500px;
+    /* display: inline; */
+}
 
+.flex{
+    display: flex;
+    padding-right: 20px;
 }
