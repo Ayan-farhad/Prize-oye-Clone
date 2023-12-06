@@ -135,11 +135,26 @@
 }
 
 .p-5{
-    width: 500px;
+    width: 400px;
     /* display: inline; */
 }
 
 .flex{
     display: flex;
     padding-right: 20px;
+}
+
+.bg-div{
+    background-color: #48AFFF;
+    display: flex;
+}
+
+.Decor{
+    background-color: #48AFFF;
+   margin-left: 350px;
+    
+}
+
+.card {
+    display: inline-flex;
 }
