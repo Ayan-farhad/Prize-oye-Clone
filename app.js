@@ -2,7 +2,7 @@
 const sameDiv = document.querySelector('.sameDiv');
 const checkOut = document.querySelector('.checkout');
 
-axios.get('https://fakestoreapi.com/products')
+axios.get('`https://fakestoreapi.com/products`')
 .then((res)=>{
     console.log(res.data);
     data = res.data;
@@ -13,7 +13,7 @@ axios.get('https://fakestoreapi.com/products')
         <div class="card-body">
         <h5 class="card-title titleh5">Title: ${res.data[i].title}</h5>
         <p class="card-text">Category: ${res.data[i].category}</p>
-        <h5 class="card-title">Price: ${res.data[i].price}</h5>
+        <h5 class="card-title">Price: Rs.${res.data[i].price}</h5>
         <a onclick="addToCart2(${i})" class="btn btn-primary">Add to Cart</a>
         </div>
         </div>
